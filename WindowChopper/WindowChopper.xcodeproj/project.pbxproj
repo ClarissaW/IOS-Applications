@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B841091D2006AAFC00220E9D /* WindowChopperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B841091C2006AAFC00220E9D /* WindowChopperTests.swift */; };
+		B84109252006AB7900220E9D /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84109242006AB7900220E9D /* Wage.swift */; };
+		B84109262006ACB800220E9D /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84109242006AB7900220E9D /* Wage.swift */; };
+		B8F7F0D220067BF90019C235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F7F0D120067BF90019C235 /* AppDelegate.swift */; };
+		B8F7F0D420067BF90019C235 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F7F0D320067BF90019C235 /* MainVC.swift */; };
+		B8F7F0D720067BF90019C235 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8F7F0D520067BF90019C235 /* Main.storyboard */; };
+		B8F7F0D920067BF90019C235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8F7F0D820067BF90019C235 /* Assets.xcassets */; };
+		B8F7F0DC20067BF90019C235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8F7F0DA20067BF90019C235 /* LaunchScreen.storyboard */; };
+		B8F7F0E920067EAC0019C235 /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F7F0E820067EAC0019C235 /* CurrencyTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B841091F2006AAFC00220E9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8F7F0C620067BF90019C235 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8F7F0CD20067BF90019C235;
+			remoteInfo = WindowChopper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B841091A2006AAFC00220E9D /* WindowChopperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WindowChopperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B841091C2006AAFC00220E9D /* WindowChopperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowChopperTests.swift; sourceTree = "<group>"; };
+		B841091E2006AAFC00220E9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B84109242006AB7900220E9D /* Wage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wage.swift; sourceTree = "<group>"; };
+		B8F7F0CE20067BF90019C235 /* WindowChopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WindowChopper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8F7F0D120067BF90019C235 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B8F7F0D320067BF90019C235 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		B8F7F0D620067BF90019C235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8F7F0D820067BF90019C235 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8F7F0DB20067BF90019C235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8F7F0DD20067BF90019C235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8F7F0E820067EAC0019C235 /* CurrencyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTextField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B84109172006AAFC00220E9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8F7F0CB20067BF90019C235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B841091B2006AAFC00220E9D /* WindowChopperTests */ = {
+			isa = PBXGroup;
+			children = (
+				B841091C2006AAFC00220E9D /* WindowChopperTests.swift */,
+				B841091E2006AAFC00220E9D /* Info.plist */,
+			);
+			path = WindowChopperTests;
+			sourceTree = "<group>";
+		};
+		B8F7F0C520067BF90019C235 = {
+			isa = PBXGroup;
+			children = (
+				B8F7F0D020067BF90019C235 /* WindowChopper */,
+				B841091B2006AAFC00220E9D /* WindowChopperTests */,
+				B8F7F0CF20067BF90019C235 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8F7F0CF20067BF90019C235 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8F7F0CE20067BF90019C235 /* WindowChopper.app */,
+				B841091A2006AAFC00220E9D /* WindowChopperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8F7F0D020067BF90019C235 /* WindowChopper */ = {
+			isa = PBXGroup;
+			children = (
+				B8F7F0E520067CA00019C235 /* Model */,
+				B8F7F0E420067C980019C235 /* View */,
+				B8F7F0E320067C8E0019C235 /* Controller */,
+				B8F7F0D120067BF90019C235 /* AppDelegate.swift */,
+				B8F7F0D520067BF90019C235 /* Main.storyboard */,
+				B8F7F0D820067BF90019C235 /* Assets.xcassets */,
+				B8F7F0DA20067BF90019C235 /* LaunchScreen.storyboard */,
+				B8F7F0DD20067BF90019C235 /* Info.plist */,
+			);
+			path = WindowChopper;
+			sourceTree = "<group>";
+		};
+		B8F7F0E320067C8E0019C235 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B8F7F0D320067BF90019C235 /* MainVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B8F7F0E420067C980019C235 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B8F7F0E820067EAC0019C235 /* CurrencyTextField.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B8F7F0E520067CA00019C235 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B84109242006AB7900220E9D /* Wage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B84109192006AAFC00220E9D /* WindowChopperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B84109232006AAFC00220E9D /* Build configuration list for PBXNativeTarget "WindowChopperTests" */;
+			buildPhases = (
+				B84109162006AAFC00220E9D /* Sources */,
+				B84109172006AAFC00220E9D /* Frameworks */,
+				B84109182006AAFC00220E9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B84109202006AAFC00220E9D /* PBXTargetDependency */,
+			);
+			name = WindowChopperTests;
+			productName = WindowChopperTests;
+			productReference = B841091A2006AAFC00220E9D /* WindowChopperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B8F7F0CD20067BF90019C235 /* WindowChopper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8F7F0E020067BF90019C235 /* Build configuration list for PBXNativeTarget "WindowChopper" */;
+			buildPhases = (
+				B8F7F0CA20067BF90019C235 /* Sources */,
+				B8F7F0CB20067BF90019C235 /* Frameworks */,
+				B8F7F0CC20067BF90019C235 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WindowChopper;
+			productName = WindowChopper;
+			productReference = B8F7F0CE20067BF90019C235 /* WindowChopper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8F7F0C620067BF90019C235 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Wang, Zewen";
+				TargetAttributes = {
+					B84109192006AAFC00220E9D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B8F7F0CD20067BF90019C235;
+					};
+					B8F7F0CD20067BF90019C235 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B8F7F0C920067BF90019C235 /* Build configuration list for PBXProject "WindowChopper" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8F7F0C520067BF90019C235;
+			productRefGroup = B8F7F0CF20067BF90019C235 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8F7F0CD20067BF90019C235 /* WindowChopper */,
+				B84109192006AAFC00220E9D /* WindowChopperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B84109182006AAFC00220E9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8F7F0CC20067BF90019C235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8F7F0DC20067BF90019C235 /* LaunchScreen.storyboard in Resources */,
+				B8F7F0D920067BF90019C235 /* Assets.xcassets in Resources */,
+				B8F7F0D720067BF90019C235 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B84109162006AAFC00220E9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B841091D2006AAFC00220E9D /* WindowChopperTests.swift in Sources */,
+				B84109262006ACB800220E9D /* Wage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8F7F0CA20067BF90019C235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8F7F0E920067EAC0019C235 /* CurrencyTextField.swift in Sources */,
+				B84109252006AB7900220E9D /* Wage.swift in Sources */,
+				B8F7F0D420067BF90019C235 /* MainVC.swift in Sources */,
+				B8F7F0D220067BF90019C235 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B84109202006AAFC00220E9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8F7F0CD20067BF90019C235 /* WindowChopper */;
+			targetProxy = B841091F2006AAFC00220E9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B8F7F0D520067BF90019C235 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8F7F0D620067BF90019C235 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B8F7F0DA20067BF90019C235 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8F7F0DB20067BF90019C235 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B84109212006AAFC00220E9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WindowChopperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zewen.WindowChopperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WindowChopper.app/WindowChopper";
+			};
+			name = Debug;
+		};
+		B84109222006AAFC00220E9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WindowChopperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zewen.WindowChopperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WindowChopper.app/WindowChopper";
+			};
+			name = Release;
+		};
+		B8F7F0DE20067BF90019C235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B8F7F0DF20067BF90019C235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8F7F0E120067BF90019C235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WindowChopper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zewen.WindowChopper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8F7F0E220067BF90019C235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WindowChopper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zewen.WindowChopper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B84109232006AAFC00220E9D /* Build configuration list for PBXNativeTarget "WindowChopperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B84109212006AAFC00220E9D /* Debug */,
+				B84109222006AAFC00220E9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8F7F0C920067BF90019C235 /* Build configuration list for PBXProject "WindowChopper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8F7F0DE20067BF90019C235 /* Debug */,
+				B8F7F0DF20067BF90019C235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8F7F0E020067BF90019C235 /* Build configuration list for PBXNativeTarget "WindowChopper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8F7F0E120067BF90019C235 /* Debug */,
+				B8F7F0E220067BF90019C235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8F7F0C620067BF90019C235 /* Project object */;
+}
